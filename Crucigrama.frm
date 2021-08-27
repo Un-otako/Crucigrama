@@ -9,11 +9,29 @@ Begin VB.Form Crucigrama
    Picture         =   "Crucigrama.frx":0000
    ScaleHeight     =   8310
    ScaleWidth      =   11415
+   Begin VB.TextBox Text20 
+      Alignment       =   2  'Center
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   12
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   495
+      Left            =   1320
+      MaxLength       =   1
+      TabIndex        =   48
+      Top             =   3960
+      Width           =   495
+   End
    Begin VB.CommandButton Cmdsuiguiente 
       Caption         =   "Siguiente"
       Height          =   615
       Left            =   7680
-      TabIndex        =   47
+      TabIndex        =   46
       Top             =   7320
       Width           =   3375
    End
@@ -31,7 +49,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   7080
       MaxLength       =   1
-      TabIndex        =   46
+      TabIndex        =   45
       Top             =   3960
       Width           =   495
    End
@@ -49,7 +67,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   6600
       MaxLength       =   1
-      TabIndex        =   45
+      TabIndex        =   44
       Top             =   3960
       Width           =   495
    End
@@ -67,7 +85,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   2280
       MaxLength       =   1
-      TabIndex        =   44
+      TabIndex        =   43
       Top             =   4440
       Width           =   495
    End
@@ -85,7 +103,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   6120
       MaxLength       =   1
-      TabIndex        =   43
+      TabIndex        =   42
       Top             =   3960
       Width           =   495
    End
@@ -103,7 +121,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   5640
       MaxLength       =   1
-      TabIndex        =   42
+      TabIndex        =   41
       Top             =   3960
       Width           =   495
    End
@@ -121,7 +139,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   5160
       MaxLength       =   1
-      TabIndex        =   41
+      TabIndex        =   40
       Top             =   3960
       Width           =   495
    End
@@ -139,7 +157,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   2280
       MaxLength       =   1
-      TabIndex        =   40
+      TabIndex        =   39
       Top             =   5400
       Width           =   495
    End
@@ -157,7 +175,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   2280
       MaxLength       =   1
-      TabIndex        =   39
+      TabIndex        =   38
       Top             =   4920
       Width           =   495
    End
@@ -175,7 +193,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   3720
       MaxLength       =   1
-      TabIndex        =   38
+      TabIndex        =   37
       Top             =   3960
       Width           =   495
    End
@@ -193,7 +211,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   3240
       MaxLength       =   1
-      TabIndex        =   37
+      TabIndex        =   36
       Top             =   3960
       Width           =   495
    End
@@ -211,7 +229,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   2760
       MaxLength       =   1
-      TabIndex        =   35
+      TabIndex        =   34
       Top             =   3960
       Width           =   495
    End
@@ -219,7 +237,7 @@ Begin VB.Form Crucigrama
       Caption         =   "Resultado"
       Height          =   615
       Left            =   360
-      TabIndex        =   34
+      TabIndex        =   33
       Top             =   7320
       Width           =   3375
    End
@@ -227,7 +245,7 @@ Begin VB.Form Crucigrama
       Caption         =   "Salir"
       Height          =   615
       Left            =   4080
-      TabIndex        =   33
+      TabIndex        =   32
       Top             =   7320
       Width           =   3375
    End
@@ -245,7 +263,7 @@ Begin VB.Form Crucigrama
       Height          =   495
       Left            =   2280
       MaxLength       =   1
-      TabIndex        =   25
+      TabIndex        =   24
       Top             =   3960
       Width           =   495
    End
@@ -262,25 +280,6 @@ Begin VB.Form Crucigrama
       EndProperty
       Height          =   495
       Left            =   1800
-      MaxLength       =   1
-      TabIndex        =   24
-      Top             =   3960
-      Width           =   495
-   End
-   Begin VB.TextBox Text20 
-      Alignment       =   2  'Center
-      DragMode        =   1  'Automatic
-      BeginProperty Font 
-         Name            =   "MS Sans Serif"
-         Size            =   12
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      Height          =   495
-      Left            =   1320
       MaxLength       =   1
       TabIndex        =   23
       Top             =   3960
@@ -477,15 +476,15 @@ Begin VB.Form Crucigrama
          Caption         =   "5-Servicio que se la da a una computadora para que funcione correctamente."
          Height          =   375
          Left            =   120
-         TabIndex        =   32
+         TabIndex        =   31
          Top             =   1200
          Width           =   3255
       End
       Begin VB.Label Label9 
-         Caption         =   "4-Conexion en que los componentes eléctricos se conectan uno a continuación del otro."
+         Caption         =   "4-Conexion en que los componentes elï¿½ctricos se conectan uno a continuaciï¿½n del otro."
          Height          =   615
          Left            =   120
-         TabIndex        =   31
+         TabIndex        =   30
          Top             =   360
          Width           =   3255
       End
@@ -498,7 +497,7 @@ Begin VB.Form Crucigrama
       Top             =   0
       Width           =   3495
       Begin VB.Label Label3 
-         Caption         =   "3-Es un firmware de sistema básico de entrada y salida"
+         Caption         =   "3-Es un firmware de sistema bï¿½sico de entrada y salida"
          Height          =   495
          Left            =   120
          TabIndex        =   12
@@ -679,7 +678,7 @@ Begin VB.Form Crucigrama
       EndProperty
       Height          =   255
       Left            =   6120
-      TabIndex        =   48
+      TabIndex        =   47
       Top             =   0
       Width           =   615
    End
@@ -695,7 +694,7 @@ Begin VB.Form Crucigrama
       EndProperty
       Height          =   375
       Left            =   6720
-      TabIndex        =   36
+      TabIndex        =   35
       Top             =   0
       Width           =   735
    End
@@ -712,8 +711,8 @@ Begin VB.Form Crucigrama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   195
-      Left            =   1080
-      TabIndex        =   30
+      Left            =   1200
+      TabIndex        =   29
       Top             =   4080
       Width           =   120
    End
@@ -730,8 +729,8 @@ Begin VB.Form Crucigrama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   195
-      Left            =   120
-      TabIndex        =   29
+      Left            =   240
+      TabIndex        =   28
       Top             =   1680
       Width           =   120
    End
@@ -749,7 +748,7 @@ Begin VB.Form Crucigrama
       EndProperty
       Height          =   195
       Left            =   4440
-      TabIndex        =   28
+      TabIndex        =   27
       Top             =   3240
       Width           =   120
    End
@@ -767,8 +766,8 @@ Begin VB.Form Crucigrama
       EndProperty
       Height          =   195
       Left            =   600
-      TabIndex        =   27
-      Top             =   720
+      TabIndex        =   26
+      Top             =   840
       Width           =   120
    End
    Begin VB.Label Label4 
@@ -784,8 +783,8 @@ Begin VB.Form Crucigrama
          Strikethrough   =   0   'False
       EndProperty
       Height          =   195
-      Left            =   2040
-      TabIndex        =   26
+      Left            =   2160
+      TabIndex        =   25
       Top             =   720
       Width           =   120
    End
@@ -795,6 +794,14 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+'------------------------------------------------------------------------------------
+'Juego creado por Mateo Uriel VillafaÃ±e Barboza el 14|8|21 y terminado el 27|8|21
+'
+'Alumno de 6Â° aÃ±o de la escuela NÂ°20 Antonio Berni Argentina Villamercedes, San Luis.
+'
+'Puedes editar este juego pero tienes que mencionarme.
+'------------------------------------------------------------------------------------
+
 Option Explicit
 
 Dim res1 As Integer
@@ -835,7 +842,9 @@ End Sub
 Public Sub contenido()
 
 If Text1.Text = "u" And Text2.Text = "s" And Text3.Text = "b" Then
+
  res2 = "20"
+
 ElseIf Text1.Text = "U" And Text2.Text = "S" And Text3.Text = "B" Then
 
  res2 = "20"
@@ -847,7 +856,9 @@ Else
 End If
 
 If Text4.Text = "e" And Text5.Text = "r" And Text6.Text = "i" And Text7.Text = "e" Then
+
  res4 = "20"
+ 
 ElseIf Text4.Text = "E" And Text5.Text = "R" And Text6.Text = "I" And Text7.Text = "E" Then
 
  res4 = "20"
@@ -859,7 +870,9 @@ Else
 End If
 
 If Text10.Text = "e" And Text9.Text = "l" And Text16.Text = "c" And Text17.Text = "t" And Text18.Text = "r" And Text19.Text = "o" And Text22.Text = "n" And Text26.Text = "i" And Text8.Text = "c" And Text27.Text = "o" Then
-res1 = "20"
+
+ res1 = "20"
+
 ElseIf Text10.Text = "E" And Text9.Text = "R" And Text16.Text = "I" And Text17.Text = "E" And Text18.Text = "R" And Text19.Text = "O" And Text22.Text = "O" And Text26.Text = "I" And Text8.Text = "C" And Text27.Text = "O" Then
 
  res1 = "20"
@@ -871,7 +884,9 @@ Else
 End If
 
 If Text13.Text = "b" And Text11.Text = "i" And Text14.Text = "o" And Text15.Text = "s" Then
-res3 = "20"
+
+ res3 = "20"
+ 
 ElseIf Text13.Text = "B" And Text11.Text = "I" And Text14.Text = "O" And Text15.Text = "S" Then
 
  res3 = "20"
@@ -883,7 +898,9 @@ Else
 End If
 
 If Text20.Text = "m" And Text21.Text = "a" And Text22.Text = "n" And Text23.Text = "t" And Text24.Text = "e" And Text25.Text = "n" And Text11.Text = "i" And Text12.Text = "m" And Text28.Text = "i" And Text29.Text = "e" And Text30.Text = "n" And Text31.Text = "t" And Text32.Text = "o" Then
-res5 = "20"
+
+ res5 = "20"
+ 
 ElseIf Text20.Text = "M" And Text21.Text = "A" And Text22.Text = "N" And Text23.Text = "T" And Text24.Text = "E" And Text25.Text = "N" And Text11.Text = "I" And Text12.Text = "M" And Text28.Text = "I" And Text29.Text = "E" And Text30.Text = "N" And Text31.Text = "T" And Text32.Text = "O" Then
 
  res5 = "20"

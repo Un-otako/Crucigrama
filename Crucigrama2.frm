@@ -934,7 +934,7 @@ Public Sub contenido()
 
 If Text1.Text = "p" And Text2.Text = "l" And Text3.Text = "a" And Text4.Text = "c" And Text5.Text = "a" And Text6.Text = "m" And Text7.Text = "a" And Text8.Text = "d" And Text9.Text = "r" And Text10.Text = "e" Then
 
-res1 = "20"
+ res1 = "20"
 
 ElseIf Text1.Text = "P" And Text2.Text = "L" And Text3.Text = "A" And Text4.Text = "C" And Text5.Text = "A" And Text6.Text = "M" And Text7.Text = "A" And Text8.Text = "D" And Text9.Text = "R" And Text10.Text = "E" Then
 
